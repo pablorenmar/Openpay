@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>ejercicio1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ejercicio 1</name>
+	<dependencies>
+		<!-- Spring Boot Starter -->
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+			<version>3.4.3</version>
+	    </dependency>
+	     <!-- Spring Boot Web -->
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-web</artifactId>
+	        <version>3.4.3</version>
+	    </dependency>
+	
+	    <!-- JUnit & Mockito -->
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-test</artifactId>
+	        <version>3.4.3</version>
+	        <scope>test</scope>
+	    </dependency>
+	</dependencies>
+	
+	<build>
+        <plugins>
+            <!-- Plugin para empaquetar en un JAR ejecutable -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
