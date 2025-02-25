@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>ejercicio2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Api Rest</name>
+  
+     <dependencies>
+        <!-- Spring Boot Starter -->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ejercicio1</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        
+        <!-- Spring Boot Starter Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+           <version>3.4.3</version>
+        </dependency>
+        
+        <!-- Base de datos en memoria H2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+            <version>2.3.232</version>
+        </dependency>
+        
+        <!-- Spring Security para autenticación -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>3.4.3</version>
+        </dependency>
+
+        <!-- Spring Boot Starter JPA -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>3.4.3</version>
+        </dependency>
+        
+        <!-- JUnit y Mockito -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <version>3.4.3</version>
+        </dependency>
+        
+     </dependencies>
+</project>

@@ -1,22 +1,16 @@
-package ejercicio;
-
+package ejercicio2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-@SpringBootApplication
-public class ejercicio {
+import ejercicio.services.marvelService;
+
+@SpringBootApplication()
+public class comicsApi {
 
 	public static void main(String[] args) {
-        SpringApplication.run(ejercicio.class, args);
-    }
-	
-	
-	@Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
-
+		SpringApplication.run(comicsApi.class, args);
+	}
 }

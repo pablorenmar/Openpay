@@ -1,9 +1,14 @@
 package ejercicio.services;
 
+import org.springframework.stereotype.Service;
+
 import ejercicio.components.marvelComponent;
 
+@Service
 public class marvelService {
-	private marvelComponent marvelComponent;
+	
+	
+	private final marvelComponent marvelComponent;
 	
 	public marvelService(marvelComponent marvelComponent)
 	{
