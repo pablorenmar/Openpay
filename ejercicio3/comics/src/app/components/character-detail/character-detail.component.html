@@ -1,0 +1,6 @@
+<mat-dialog-content>
+<h2>{{ data.name }}</h2>
+<p>{{ data.description }}</p>
+<img [src]="data.thumbnail.path + '.' + data.thumbnail.extension" width="200px">
+<button mat-button mat-dialog-close="true">Close</button>
+</mat-dialog-content>

@@ -1,0 +1,6 @@
+<h2>Comic Characters</h2>
+<ul>
+  <li *ngFor="let character of characters" (click)="openCharacterDetail(character)">
+    {{ character.name }}
+  </li>
+</ul>

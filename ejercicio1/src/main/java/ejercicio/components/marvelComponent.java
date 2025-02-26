@@ -8,7 +8,6 @@ import ejercicio.interfaces.comics;
 
 public class marvelComponent implements comics{
 	
-	//@Value("${marvel.api.base-url}")
     private String baseUrl = "https://gateway.marvel.com";
 
     private final RestTemplate restTemplate;
